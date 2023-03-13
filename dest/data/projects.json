@@ -95,6 +95,12 @@
   "status": "Revamped",
   "details": "<p>I built this subsite together with the corporate site and the budget site.</p>"
 }, {
+  "title": "Open Innovation Network",
+  "image": "oin",
+  "status": "Live",
+  "link": "https://www.openinnovationnetwork.gov.sg",
+  "details": "<p>This site incorporates a lot of fade in animations for the widgets.</p>"
+}, {
   "title": "NUS OSA Orientation",
   "image": "nusosa-eorientation2021",
   "status": "Revamped",
