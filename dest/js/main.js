@@ -39,10 +39,7 @@ jQuery.fn.ListProjects = function(options) {
   })
 }
 
-function projectOpen($thiselem, title, imgPath) {
-  let project = dataJson.find(function(elem) {
-    return elem.title === title;
-  })
+function projectOpen($thiselem, project, index, imgPath) {
   // change title
   $thiselem.find('.modal-title').html(project.title);
   // change status
@@ -73,9 +70,18 @@ function projectOpen($thiselem, title, imgPath) {
     $thiselem.find('.modal-info').empty();
     $thiselem.find('.modal-info').append('<img class="project-img" src="' + imgPath + project.image + '.png" alt="' + project.title + '" />');
   }
-  // $thiselem.find('.project-img').attr('src', imgPath + project.image + '.png');
 
-
+  if(index === 0) {
+    $thiselem.find('.btn-prev').data('index', dataJson.length - 1);
+  } else { 
+    $thiselem.find('.btn-prev').data('index', index - 1);
+  }
+  
+  if(index === (dataJson.length - 1)) {
+    $thiselem.find('.btn-next').data('index', 0);
+  } else { 
+    $thiselem.find('.btn-next').data('index', index + 1);
+  }
 }
 
 $(function() {
@@ -87,15 +93,20 @@ $(function() {
 
   // open the project modal
   $('#project').on('show.bs.modal', function(e) {
-    let project = $(e.relatedTarget).data('project');
-    projectOpen($(this), project, '/img/');
+    let projectTitle = $(e.relatedTarget).data('project');
+    let projectIndex = dataJson.findIndex(function(elem) {
+      return elem.title === projectTitle;
+    })
+    projectOpen($(this), dataJson[projectIndex], projectIndex, '/img/');
   });
 
   $('.project-modal > .btn-prev').on('click', function() {
-    
+    let index = $(this).data('index');
+    projectOpen($('#project'), dataJson[index], index, '/img/');
   });
   $('.project-modal > .btn-next').on('click', function() {
-
+    let index = $(this).data('index');
+    projectOpen($('#project'), dataJson[index], index, '/img/');
   });
 
 });
