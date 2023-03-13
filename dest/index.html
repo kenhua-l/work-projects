@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
   <head>
-    <title>web-setup-cli</title>
+    <title>Projects Portfolio</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,94 +10,90 @@
 <link href="css/main.css" rel="stylesheet" />
   </head>
   <body class="d-flex flex-column h-100">
-    <header>
-  <!-- navigation -->
-  <div class="navbar-dark">
-    <div class="container">
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">Brand</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Documentation</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Page 1</a>
-                <a class="dropdown-item" href="#">Page 2</a>
-                <a class="dropdown-item" href="#">Page 3</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </div>
-</header>
     <main>
-      <section aria-label="main content">
-        <div class="container">
-          <h1>Thank you for using web-setup</h1>
-          <p>
-            This is a very simple cli to setup html, css, and js with jQuery and
-            Bootstrap to help coders get started easily.
-          </p>
-          <p>
-            The idea is to just create the folders, download bootstrap and jquery
-            and write a simple gulp js that can process the html, css and js at a script command.
-          </p>
-          <p>
-            Dependencies
-            <ul>
-              <li>
-                Bootstrap (for layout)
-              </li>
-              <li>
-                jQuery (not used but included for convenience)
-              </li>
-            </ul>
-          </p>
-          <p>
-            Do note that this is a very simple web project setup. You may need to use
-            a more than just jQuery and Bootstrap to create a webpage.
-          </p>
-          <p>
-            You may fork the project to customize the project based on your need.
-            For queries and ideas on how to customize, you can also find me <a href="https://github.com/kenhua-l/web-setup-npm" target="_blank">kenhua-l@github</a>.
-          </p>
+      <div class="container">
+        <h1>Hi, I am Ken</h1>
+        <p>The following is a non-exhaustive list of the projects I have worked on from 2018-2022.</p>
+
+        <div class="project-list">
+          <div class="project-container">
+            <div class="project" data-bs-toggle="modal" data-bs-target="#project">
+              <div class="project-img">
+                <img src="/img/nea.png" alt="nea" />
+              </div>
+              <div class="project-info">
+                <p class="project-title">NEA</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-container">
+            <div class="project" data-bs-toggle="modal" data-bs-target="#project">
+              <div class="project-img">
+                <img src="/img/moh.png" alt="moh" />
+              </div>
+              <div class="project-info">
+                <p class="project-title">MOH</p>
+              </div>
+            </div>
+          </div>
+          <div class="project-container">
+            <div class="project" data-bs-toggle="modal" data-bs-target="#project">
+              <div class="project-img">
+                <img src="/img/stoneforest.png" alt="stoneforest" />
+              </div>
+              <div class="project-info">
+                <p class="project-title">Stone Forest</p>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
+
+        <div class="modal fade" id="project" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <button type="button" class="btn-prev" aria-label="previous project"></button>
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">NEA</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Status: Live</p>
+                <p>Link: <a href="https://www.nea.gov.sg/" target="_blank">www.nea.gov.sg</a></p>
+                <div class="project-detail">
+                  <p>
+                    NEA government site was one of my first full fledged projects that I handle from beginning to end. 
+                    Working on the site has made me learnt a lot of map related libraries. Take a look at some examples 
+                    here → <a href="http://nea-widgets.surge.sh/" target="_blank">nea-widgets.surge.sh</a>
+                    Also work on the subsite https://www.haze.gov.sg/ that drives in a lot of traffic during haze season.
+                  </p>
+                </div>
+                <img src="/img/nea.png" alt="nea" />
+              </div>
+            </div>
+            <button type="button" class="btn-next" aria-label="next project"></button>
+          </div>
+        </div>
+
+      </div>
     </main>
     <footer class="mt-auto">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <p class="py-2 px-3 m-0 text-white">
+        <p class="py-2 px-3 m-0">
           &copy; Copyright kenhua-l
         </p>
       </div>
       <div class="col-md-6">
         <ul class="nav justify-content-md-end">
           <li class="nav-item">
-            <a href="#" class="nav-link">Facebook</a>
+            <a href="https://www.notion.so/kenhua-l/My-Resume-d4770728286f44a2ad4b4d705f91ccf7" target="_blank" class="nav-link">Resume</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Github</a>
+            <a href="https://github.com/kenhua-l" target="_blank" class="nav-link">Github</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">Twitter</a>
+            <a href="https://www.behance.net/kenfunny" target="_blank" class="nav-link">Behance</a>
           </li>
         </ul>
       </div>
