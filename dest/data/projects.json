@@ -1,52 +1,118 @@
 [{
   "title": "NEA",
   "image": "nea",
-  "status": "live",
-  "link": "www.nea.gov.sg",
-  "details": "NEA government site was one of my first full fledged projects that I handle from beginning to end. Working on the site has made me learnt a lot of map related libraries. Take a look at some examples here → <a href=\"nea-widgets.surge.sh\" target=\"_blank\">nea-widgets.surge.sh</a> Also work on the subsite <a href=\"https://www.haze.gov.sg\" target=\"_blank\">https://www.haze.gov.sg</a> that drives in a lot of traffic during haze season."
+  "status": "Live",
+  "link": "https://www.nea.gov.sg",
+  "details": [
+    "<p>NEA government site was one of my first full fledged projects that I handle from beginning to end.</p>",
+    "<p>Also work on the subsite <a href=\"https://www.haze.gov.sg\" target=\"_blank\">https://www.haze.gov.sg</a> that drives in a lot of traffic during haze season.</p>",
+    "<img src=\"/img/neahaze.png\" alt=\"haze site\" /><br />",
+    "<p>Working on the site has made me learnt a lot of map related libraries (onemap, datamap, leaflet). Take a look at some examples here → <a href=\"https://nea-widgets.surge.sh\" target=\"_blank\">nea-widgets.surge.sh</a>.</p>"
+  ]
 }, {
   "title": "MOH",
-  "image": "moh"
+  "image": "moh",
+  "status": "Live",
+  "link": "https://www.moh.gov.sg",
+  "details": [
+    "<p>MOH government site was a maintenance turned full fledged project that I handled. In 3 years that I took over, the site has undergone two revamps with the last one being covid-19 related. In the covid revamp, I have worked with chartjs to create statistical charts</p>",
+    "<img src=\"/img/covid.png\" alt=\"covid related charts\" />",
+    "<p>The previous MOH skin.</p>",
+    "<img src=\"/img/moh1.png\" alt=\"previous moh\" />",
+    "<p>I was also in charge of working on other MOH subsites including the professional boards.</p>",
+    "<img src=\"/img/mohhealthwatch.png\" alt=\"moh health watch\" />"
+  ]
 }, {
   "title": "Stone Forest",
-  "image": "stoneforest"
+  "image": "stoneforest",
+  "status": "Live",
+  "link": "https://www.stoneforest.com.sg",
+  "details": "<p>I have helped created the corporate site and its subsite sisters.</p>"
 }, {
   "title": "Duke NUS",
-  "image": "dukenus"
+  "image": "dukenus",
+  "status": "Live",
+  "link": "https://www.duke-nus.edu.sg",
+  "details": [
+    "<p>This is another full fledged project that I worked on for the corporate site and its subsites.</p>",
+    "<img src=\"/img/dukenus-sdghi.png\" alt=\"duke nus sdghi map\" />"
+  ]
 }, {
   "title": "NUS CFG",
-  "image": "nuscfg"
+  "image": "nuscfg",
+  "status": "Live",
+  "link": "https://www.nus.edu.sg/cfg",
+  "details": [
+    "<p>I have created a event calendar for this site.</p>",
+    "<img src=\"/img/nuscfg-events.png\" alt=\"cfg calendar\" />"
+  ]
 }, {
   "title": "IPOS",
-  "image": "ipos"
+  "image": "ipos",
+  "status": "Live",
+  "link": "https://www.ipos.gov.sg",
+  "details": [
+    "<p>IPOS went through two revamps when I took over the project. Below is the previous version.</p>",
+    "<img src=\"/img/ipos1.png\" alt=\"ipos previous\" />"
+  ]
 }, {
   "title": "MND Tianjin Eco-city",
-  "image": "tianjin"
+  "image": "tianjin",
+  "status": "Live",
+  "link": "https://www.mnd.gov.sg/tianjinecocity",
+  "details": "<p>I have worked with multiple subsites under MND and Tianjin Eco-city is one of them.</p>"
 }, {
   "title": "NUS 115",
-  "image": "nus115"
+  "image": "nus115",
+  "status": "Removed",
+  "details": "<p>This was a campaign site of NUS. Using Javascript (jQuery) to create page transition and svg animation on background. The site has been removed but I have saved the draft version here → <a href=\"https://nus115.surge.sh\" target=\"_blank\">nus115.surge.sh</a>.</p>"
 }, {
   "title": "Family Justice Courts",
-  "image": "fjc"
+  "image": "fjc",
+  "status": "Redirected",
+  "details": "<p>The Family Justice Courts website won the <a href=\"http://www.webaward.org/winner/35664/websparks-pte-ltd-wins-2020-webaward-for-family-justice-courts-singapore.html\" target=\"_blank\"> WebAwards' Outstanding Website 2020</a>. However, it has since been merged into the IFAMS site.</p>"
 }, {
   "title": "MND Happy Hands",
-  "image": "mndhappyhands"
+  "image": "mndhappyhands",
+  "status": "Live",
+  "link": "https://www.mnd.gov.sg/happyhands",
+  "details": "<p>I have worked with multiple subsites under MND and Happy Hands is one of them.</p>"
 }, {
   "title": "MOF",
-  "image": "mof"
+  "image": "mof",
+  "status": "Live",
+  "link": "https://www.mof.gov.sg",
+  "details": "<p>I was actually part of the UX team to survey how people would like the new MOF revamp to be like.</p>"
 }, {
   "title": "MOF Budget 2020-21",
-  "image": "mofbudget"
+  "image": "mofbudget",
+  "status": "Revamped",
+  "link": "https://www.mof.gov.sg/singaporebudget",
+  "details": "<p>I built the budget site used for 2020 and 2021.</p>"
 }, {
   "title": "MOF SPOR",
-  "image": "mofspor"
+  "image": "mofspor",
+  "status": "Revamped",
+  "details": "<p>I built this subsite together with the corporate site and the budget site.</p>"
 }, {
   "title": "NUS OSA Orientation",
-  "image": "nusosa-eorientation2021"
+  "image": "nusosa-eorientation2021",
+  "status": "Revamped",
+  "details": [
+    "<p>The orientation site was first built in 2020 for e-orientation amidst the pandemic. But it has since grown to be a informative site for subsequent orientations since.</p>",
+    "<p>The 2020 design was actually done and built by me. Shown below.</p>",
+    "<img src=\"/img/nusosa-eorientation2020.png\" alt=\"e-orientation site 2020\" />"
+  ]
 }, {
   "title": "SFA From Sg To Sg",
-  "image": "sfafsts"
+  "image": "sfafsts",
+  "status": "Live",
+  "link": "https://www.sfa.gov.sg/fromsgtosg",
+  "details": "This is a campaign site initiated by SFA. The website is actually quite complex and emphasises on aesthetic which differs from its corporate site. Some of the more complex designed functions are the videos on rotating banner, parallax scrolling on the farmer's page and the recipe page where the videos are on the thumbnails.</p>"
 }, {
   "title": "Singstat Table Builder",
-  "image": "singstat"
+  "image": "singstat",
+  "status": "Live",
+  "link": "https://tablebuilder.singstat.gov.sg",
+  "details": "<p>Built using ReactJS and Redux. I took over this project halfway and cleared almost 75% of the remaining / pending / bugfix tasks before the launch. The logic for the table builder is actually quite complex, having to draw and redraw the state flow because of limitations found later on after a big portion of the code was done."
 }]
