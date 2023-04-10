@@ -4,10 +4,11 @@
   "status": "Live",
   "link": "https://www.nea.gov.sg",
   "details": [
+    "<p>Take a look at some examples of my work here → <a href=\"https://nea-widgets.surge.sh\" target=\"_blank\">nea-widgets.surge.sh</a>.</p>",
     "<p>NEA government site was one of my first full fledged projects that I handle from beginning to end.</p>",
     "<p>Also work on the subsite <a href=\"https://www.haze.gov.sg\" target=\"_blank\">https://www.haze.gov.sg</a> that drives in a lot of traffic during haze season.</p>",
     "<img src=\"/img/neahaze.png\" alt=\"haze site\" /><br />",
-    "<p>Working on the site has made me learnt a lot of map related libraries (onemap, datamap, leaflet). Take a look at some examples here → <a href=\"https://nea-widgets.surge.sh\" target=\"_blank\">nea-widgets.surge.sh</a>.</p>"
+    "<p>Working on the site has made me learnt a lot of map related libraries (onemap, datamap, leaflet).</p>"
   ]
 }, {
   "title": "MOH",
@@ -15,6 +16,7 @@
   "status": "Live",
   "link": "https://www.moh.gov.sg",
   "details": [
+    "<p>Take a look at some examples of my work here → <a href=\"https://moh-example.surge.sh\" target=\"_blank\">moh-example.surge.sh</a>.</p>",
     "<p>MOH government site was a maintenance turned full fledged project that I handled. In 3 years that I took over, the site has undergone two revamps with the last one being covid-19 related. In the covid revamp, I have worked with chartjs to create statistical charts</p>",
     "<img src=\"/img/covid.png\" alt=\"covid related charts\" />",
     "<p>The previous MOH skin.</p>",
